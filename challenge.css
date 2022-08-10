@@ -1,0 +1,26 @@
+box{
+    box-sizing: border-box;
+    padding: 1000000px;
+}
+.hero{
+    background-color: rgba(169, 169, 169, 0.009);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
